@@ -1,0 +1,5 @@
+<div class="clockVis" ng-controller="ClockController">
+	<span style="font-size: {{vis.params.fontSize}}; color: {{vis.params.fontColor}}">
+		{{ time | date:vis.params.format }}
+	</span>
+</div>
